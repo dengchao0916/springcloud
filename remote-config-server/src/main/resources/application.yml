@@ -7,3 +7,12 @@ spring:
     config:
       server:
         git:
+          uri: https://github.com/dengchao0916/springcloud.git
+          search-paths: config
+          username: dengchao0916@163.com
+          password: happydengchao0917
+      label: master
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
